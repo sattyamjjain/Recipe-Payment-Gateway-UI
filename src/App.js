@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
+import Router from './app/Router/Router';
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
-const App = () => {
+export function App() {
   return (
-    <div className="container">
-      <h1>Setup React App from Scratch</h1>
+    <div>
+      <Router />
     </div>
   );
-};
-
-export default App;
+}
